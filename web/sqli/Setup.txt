@@ -1,0 +1,17 @@
+As prerequisites, have node installed and run "npm install" in this directory.
+
+
+To run this challenge, you need to run two containers and a network to put them in. In this directory, run:
+docker network create tamuhack-sqli-net
+docker run -d --name tamuhack-sqli-sqldb --net tamuhack-sqli-net -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=tamuhack_login -e MYSQL_USER=username -e MYSQL_PASSWORD=password -p 3306:3306 mysql:latest
+cat tamuhacksqli_db.sql | docker exec -i tamuhack-sqli-sqldb /usr/bin/mysql -u root --password=password tamuhack_login
+docker build -t tamuhack-sqli-server-image .
+docker run -d --name tamuhack-sqli-server --net tamuhack-sqli-net --restart always -p 80:80 tamuhack-sqli-server-image
+
+After running the previous commands, the server should be running on localhost on port 80.
+
+
+For cleanup, run:
+docker kill tamuhack-sqli-sqldb
+docker kill tamuhack-sqli-server
+docker network rm tamuhack-sqli-net
