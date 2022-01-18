@@ -9,5 +9,7 @@ COPY pages /var/www/html
 
 EXPOSE 80
 
-COPY main.sh /
-ENTRYPOINT ["/main.sh"]
+ADD main.sh /
+WORKDIR /
+RUN chmod u+x main.sh
+ENTRYPOINT ["./main.sh"]
