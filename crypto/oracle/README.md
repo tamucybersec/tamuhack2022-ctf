@@ -19,7 +19,7 @@ As an overview, we know the public key (`N`, `e`) and want to decrypt `c` (the p
 
 Here's a generalized implementation (I used `pwntools` to automate talking to the oracle, so you'll need to `pip install pwntools` if you don't have it):
 
-```
+```python
 from pwn import process
 from Crypto.Util.number import long_to_bytes
 
