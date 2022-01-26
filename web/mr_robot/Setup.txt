@@ -1,8 +1,0 @@
-To run this challenge, you only need one container. In this directory, run:
-docker build -t tamuhack-mr-robot-image .
-docker run -d --name tamuhack-mr-robot -p 80:80 tamuhack-mr-robot-image
-
-After running the previous commands, the server should be running on localhost on port 80.
-
-For cleanup run:
-docker kill tamuhack-mr-robot
