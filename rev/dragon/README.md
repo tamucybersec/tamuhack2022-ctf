@@ -4,7 +4,7 @@ A [dragon](https://ghidra-sre.org/) gave me this mysterious box, but I don't kno
 
 ## Solution
 Open the binary in Ghidra, and analyze it. The disassembled main function looks like this:
-```
+```c
 undefined8 main(int param_1,long param_2)
 
 {
