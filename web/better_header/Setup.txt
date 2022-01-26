@@ -1,0 +1,9 @@
+# Build docker image
+docker build -t better_header .
+
+# Run docker image
+docker run -p 8000:8000 -d --name web_chall_better_header better_header
+
+# Remove container when done
+docker container stop web_chall_better_header
+docker container rm web_chall_better_header
