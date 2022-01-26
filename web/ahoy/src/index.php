@@ -18,6 +18,5 @@ if(array_key_exists("user", $_COOKIE)&&preg_match('/administrator/', $_COOKIE["u
                      echo($output);
                 ?>
         </div>
-
 </body>
 </html>

@@ -6,3 +6,6 @@ Chips Ahoy! Everything you need is located on the [webpage](http://localhost:800
 (Setup instructions are in Setup.txt)
 
 ## Solution
+
+## Developer Notes
+Run `make` to start up the container on port 80. For cleanup, run `make stop`.
