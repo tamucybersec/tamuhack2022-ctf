@@ -1,0 +1,9 @@
+# Build docker image
+docker build -t ahoy .
+
+# Run docker image
+docker run -p 8000:80 -d --name web-chall-ahoy ahoy
+
+# Remove container when done
+docker container stop web-chall-ahoy
+docker container rm web-chall-ahoy
