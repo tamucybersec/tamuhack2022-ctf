@@ -1,11 +1,11 @@
 # Stegosaurus
 
 ## Description
-Steghide the Stegosaurus is hiding something behind him with his strange aluring uwu face... Can you find it?
+Steghide the Stegosaurus is hiding something behind him with his strange alluring uwu face... Can you find it?
 
 ## Hint
 
-The species name in all lower case is the key
+The species name in all lowercase is the key.
 
 ## Solution
 
