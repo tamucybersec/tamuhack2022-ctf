@@ -3,7 +3,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['numbers'])) {
         $num = $_POST['numbers'];
 	    if ($num == '55') {
-	        $output = ("<h3>55 is correct! gigem{TraingleNumSeqNotSoSecret}</p>");
+	        $output = ("<h3>55 is correct! gigem{TriangleNumSeqNotSoSecret}</p>");
 	    } else {
 	        $output = ("<h3>$num is not the number you're looking for</h3>");
 	    }
