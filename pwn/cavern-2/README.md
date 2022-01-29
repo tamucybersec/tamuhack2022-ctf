@@ -1,7 +1,7 @@
-# Cavern
+# Cavern 2
 
 ## Description
-I found yet _another_ binary that prints stuff. Maybe you can do something with it?
+I found another binary that prints stuff, but I'm having a severe case of _writer_'s block, so you don't get a funny prompt. Have fun!
 
 ## Solution
 Here's another quick `pwntools` script (you need to `pip install pwntools` if you don't have it). Since the binary passes a format string as the first argument to `printf()`, we can write arbitrary data at an arbitrary location. To get a shell, we can overwite the GOT entry for `exit` with the provided `win` function, so any subsequent calls to `exit` will call our `win` function.
