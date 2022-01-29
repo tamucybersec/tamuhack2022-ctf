@@ -10,6 +10,8 @@ What is the flag?
 Zi vse Gehxzr rj vse Lnbbsq Vxceej, ig Wfqhv vz ffrf i abui rprwevb Ialsp, pskautwfk Nwdtzcx, qbfxvg oodelbwp Wvcyqlieqhl, svqgiue ywf gki ezmdog lsshrep, piofwhr wlg reeekiz Jhphlrv, gbosz{F0rue1tlt10g_0n_hu3_Xr1v3o_Sk4t3l} ibq viefrv tam Pyhwutnxs hn Zveitey ko hcffhpxps rnw wie Ssueeiimg, rb rvflie agl sfwedwijh mpwf Fspdtztnbwbq jqc tye Nvwghh Ueakel wt Npittcr.
 ```
 
+Hint: The cipher is a Vigenere cipher.
+
 ## Solution
 The first thing that stands out is the obvious brackets in the middle of the ciphertext,
 but the flag format, which is `gigem{*}`, suggests to me that the message isn't a simple
