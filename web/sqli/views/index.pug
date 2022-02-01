@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+    form(method='POST')
+      h3 Please log in:
+      label Username:
+      input(type='text' name='username')
+      br
+
+      label Password:
+      input(type='password' name='password')
+      br
+
+      input(type='submit' value='Login')
+      h6= error
